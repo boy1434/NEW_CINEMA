@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+
+.detail {
+	margin-top: 5px;
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid #333;
+	width: 100%;
+	height: 450px;
+	position: relative;
+	background-repeat: no-repeat;
+	height: 450px;
+	background-color: black;
+}
+
+.m_photo {
+	width: 230px;
+	height: 331px;
+	margin: 40px;
+}
+
+.btn_res {
+	width: 230px;
+	background-color: #1498F9;
+	color: white;
+}
+
+.m_name {
+	margin: 50px;
+	font-size: 24px;
+	font-weight: bold;
+	color:white;
+}
+
+.comment {
+	border: 1px solid #B182FF;
+	margin: 1px;
+	border-radius: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	width: 400px;
+	color:white;
+}
+
+.desc{
+	margin-left: 50px;
+	margin-top: 15px;
+}
+/* 부트스트랩 css */
+.bdge {
+	height: 21px;
+	background-color: orange;
+	color: #fff;
+	font-size: 11px;
+	padding: 8px;
+	border-radius: 4px;
+	line-height: 3px
+}
+
+.dot {
+	height: 7px;
+	width: 7px;
+	margin-top: 3px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block
+}
+
+.hit-voting:hover {
+	color: blue
+}
+
+.m_margin_right{
+	margin-right: 10px;
+}
+
+.hit-voting {
+	cursor: pointer
+}
+.bottom_box{
+	margin-left: 50px;
+	
+}
+
+.like_box{
+	border: 2px solid white;
+	border-radius:10px; 
+	padding: 5px;
+	color:white;
+	width: 65px;
+	text-align: center;
+	margin:10px;
+	box-sizing: content-box;
+	margin-left: 0;
+}
+
+.like_box:hover {
+	background-color: white;
+	color:black;
+	cursor: pointer;
+}
+
+.delete_btn button{
+	width: 100px;
+	height: 40px;
+	color: #fff;
+	margin:3px;
+	background:#004fff;
+	border:none;
+	border-radius: 15px;
+	box-shadow: 0 4px 16px rgba(0,79,255,0.3);
+}
+.delete_btn{
+	width: 100px;
+	margin : auto 0;
+}

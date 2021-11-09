@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+/* content */
+
+.selectWrapper {
+    width: 900px;
+    background-color: gray;
+    margin-top: 0 auto;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+
+.selectTitle {
+    background-color: #444444;
+    color: #dddddd;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.selectSeatContainer {
+    display: flex;
+    /* align-items: center; */
+    border-bottom: 2px solid #dddddd;
+}
+
+
+.selectSeatNumberContainer {
+    flex-grow: 1;
+    border-right: 1px solid #dddddd;
+    display: flex;
+}
+
+.selectSeatNumberWrapper {
+    padding: 15px 0 20px 20px;
+    flex-grow: 1;
+}
+
+.selectTimeInformationWrapper{
+    padding: 15px 0 20px 20px;
+    flex-grow: 1;
+}
+
+.selectSeatInformation {
+    flex-grow: 1;
+    padding: 15px 0 20px 20px;
+}
+
+.selectSeat {
+    display: flex;
+    font-size: 16px;
+}
+
+.selectSeat:not(:first-child) {
+    margin-top: 12px;
+}
+
+.selectSeatAge {
+    width: 40px;
+}
+
+.selectSeatNumber {
+    margin-left: 15px;
+}
+
+.reserveNumberWrapper {
+    flex-grow: 1;
+    padding-top: 15px;
+    border-left: 1px solid #DDDDDD;
+    text-align: center;
+}
+
+.reserveNumber {
+    margin-top: 20px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.selectedMovie {
+	font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.selectSeatInformationWrapper {
+    display: flex;
+}
+
+.selectTheaterPlace {
+    font-size: 20px;
+}
+
+.selectTheaterPlace:not(:last-child) {
+    width: 80px;
+    border-right: 1px solid #dddddd;
+}
+
+.selectTheaterPlace:last-child {
+    width: 170px;
+    /* border-right: 1px solid #dddddd; */
+}
+
+.selectTheaterPlace:not(:first-child) {
+    margin-left: 14px;
+}
+
+.selectTheaterDate {
+    /*  font-size: 18px;
+    margin-top: 8px;
+    font-weight: bold; */
+    display: flex;
+}
+
+.selectTheaterDate>div {
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.theaterTime {
+    margin-left: 5px;
+}
+
+.remainSeats {
+    margin-left: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.selectedSeatsWrapper {
+    margin-top: 5px;
+}
+
+.seatName {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.selectedSeatsTitle {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ticketPriceWrapper{
+	margin-top: 13px;
+	display: flex;
+	align-items: center;
+}
+.ticketPriceWrapper>div{	
+	font-weight: bold;
+}
+.ticketPriceTitle{
+	font-size: 18px;
+}
+
+.ticketPrice {
+	margin-left: 47px;
+	font-size:20px;
+}
+
+.reserveBtn {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 0;
+    background-color: gray;
+    border: none;
+}
+
+.reserveBtn img {
+    margin-left: 10px;
+    width: 60px;
+}
+
+.seatContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.screenView {
+    width: 140px;
+    color: #777777;
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    border-bottom: 1px solid #666666;
+    letter-spacing: 4px;
+}
+
+.seatWrapper {
+    background-color: #222222;
+    width: 700px;
+    height: 460px;
+    /* padding-top: 120px; */
+}
+
+.seatButtonWrapper {
+    text-align: center;
+}
+
+.seatButtonWrapper>input {
+    width: 30px;
+    height: 30px;
+}
+
+.left-margin {
+    margin-left: 30px;
+}
+
+.right-margin {
+    margin-right: 30px;
+}
+
+.top-margin {
+    margin-top: 30px;
+}
+
+.logo {
+	margin-left: 5px;
+}
